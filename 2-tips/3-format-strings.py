@@ -1,16 +1,6 @@
-nombre_curso = "Ultimate python"
-descripcion = """
-Ultima Python,
-Este curso contempla todos los detalles
-que necesitas aprender para encontrar 
-trabajo como derrollador.
-""" 
-
-print(nombre_curso, descripcion)
-
-print(len(nombre_curso))
-print(nombre_curso[0]) 
-print(nombre_curso[0:8])
-print(nombre_curso[:8])
-print(nombre_curso[9:])
-print(nombre_curso[:]) 
+nombre = "Alberto"
+apellido = "Hernandez"
+nombre_completo = f"{nombre} {apellido}" # operador f para formateo de string
+print(nombre_completo)
+nombre_completo = f"{nombre[0]} {2 + 5}" # se pueden agregar funciones
+print(nombre_completo)
