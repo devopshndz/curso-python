@@ -11,6 +11,7 @@ matriz = [[0, 1], [1, 0]] # lista dentro de lista, matriz
 ceros = [0] * 10 # crear lista desde una operación matematica
 aflanumerico = numeros + letras # juntamos dos listas en una, dos listas en una gran lista.
 rango = list(range(1, 11))
+chars = list("Hola mundo")
 
 print(letras)
 print(palabras)
@@ -19,3 +20,4 @@ print(matriz)
 print(ceros)
 print(aflanumerico)
 print(rango)
+print(chars)
