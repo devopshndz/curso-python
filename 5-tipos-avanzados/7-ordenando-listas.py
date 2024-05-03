@@ -32,9 +32,9 @@ print(usuarios)
 
 # expresiones anonimas o expresiones lambdas
 
-print()
-def ordena(elemento):
-    return elemento[1]
+# print()
+# def ordena(elemento):
+#     return elemento[1]
 
-usuarios.sort(key=lambda, el:,reverse=True)
+usuarios.sort(key=lambda el: el[1] ,reverse=True)
 print(usuarios)
