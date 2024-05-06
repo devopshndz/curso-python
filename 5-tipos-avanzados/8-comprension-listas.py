@@ -32,3 +32,11 @@ nombres = [usuario[0] for usuario in usuarios if usuario[1] > 2]
 print(nombres)
 # lista filtrada y transformada, se filtra para que nada mas muestre el indicie[0] o sea los nombres, y el indice [1] o sea el id
 # solo muestre los que son mayores que 2
+
+# map
+nombres = list(map(lambda usuario: usuario[0], usuarios))
+print(nombres)
+
+#filter
+menosUsuarios = list(filter(lambda usuario: usuario[1] > 2, usuarios))
+print(menosUsuarios)
